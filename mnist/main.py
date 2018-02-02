@@ -6,7 +6,7 @@ import torch.nn.functional as F
 import torch.optim as optim
 from torchvision import datasets, transforms
 from torch.autograd import Variable
-from tensorboard import SummaryWriter
+from tensorboardX import SummaryWriter
 writer = SummaryWriter('runs')
 # Training settings
 parser = argparse.ArgumentParser(description='PyTorch MNIST Example')
